@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Saira', sans-serif;
+    background-color: #7886A0;
+}
+
+nav {
+    background-color: #34495E;
+    height: 80px;
+    width: 100%;
+}
+
+.logo {
+    color: ghostwhite;
+    font-size: 50px;
+    padding-left: 40px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 130px;
+    margin-top: 25px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+    font-size: 20px;
+
+}
+
+nav ul li a {
+    color: ghostwhite;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+a.home,
+a:hover {
+    background-color: royalblue;
+    transition: 0.5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+@media (max-width: 952px) {
+    .logo {
+        font-size: 50px;
+        padding-left: 50px;
+    }
+
+    ul li {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #7886A0;
+    }
+}
+
+.kushl {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+    border: solid darkslategray 5px;
+    margin-right: 20px;
+}
+
+h1,
+h2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+/* style.css */
+
+/* Add this CSS to style the list items inside the "Education" section */
+.education ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.education li {
+    margin-bottom: 15px;
+    /* Add some spacing between list items */
+}
+
+.education li p {
+    margin: 5px 0;
+}
+
+.links li {
+    gap: 10px;
+}
+
+.links {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.vesit,
+.aecs {
+    height: 260px;
+    width: 260px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1.5fr 2fr 1fr;
+}
+
+span {
+    font-size: 2rem;
+}
+
+.links {
+    margin-top: 120px;
+}
+
+.interests ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.interests li {
+    margin-bottom: 15px;
+    /* Add some spacing between list items */
+}
+
+.interests li p {
+    margin: 5px 0;
+}
+
+.para {
+    padding-left: 20px;
+}
